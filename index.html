@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIPTRAT</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--MENU-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand"><b>TRIPTRAT</b></a>
+
+            <button class="navbar-toggler"data-bs-toggle="collapse" data-bs-target="#navbar1">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link" style="color: white;">หน้าแรก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#service" class="nav-link" style="color: white;">บริการ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link" style="color: white;">สถานที่ท่องเที่ยว</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal" style="color: white;">ติดต่อ</a>
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+  <!--SLIDER-->
+  <section id="slider">
+    <div class="carousel slide" data-bs-ride="carousel" id="mySlider">
+        <ol class="carousel-indicators">
+            <button data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></button>
+            <button data-bs-target="#mySlider" data-bs-slide-to="1"></button>
+            <button data-bs-target="#mySlider" data-bs-slide-to="2"></button>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item carousel-image-1 active">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1 class="display-3" style="font-weight: bold;">Ko-Chang</h1>
+
+                        <p>เกาะช้างเป็นหนึ่งในจุดท่องเที่ยวที่มีชื่อเสียงในประเทศไทย เกาะนี้ตั้งอยู่ในจังหวัดตราด บรรยากาศบนเกาะช้างมีความสวยงามและอันแสนอบอุ่น มีทะเลสีใสที่สวยงามและน้ำทะเลที่สะอาด เป็นสถานที่ที่คนมาเยือนได้พักผ่อนและสัมผัสกับธรรมชาติอย่างแท้จริง นอกจากนี้ เกาะช้างยังมีกิจกรรมท่องเที่ยวหลากหลาย เช่น ดำน้ำทะเลใส, ตะเกียง, หรือการเล่นสปีดโบ๊ท ที่ทำให้นักท่องเที่ยวได้สนุกสนานอย่างที่คาดไม่ถึง โดยเฉพาะช่วงฤดูท่องเที่ยว เกาะช้างจะเต็มไปด้วยนักท่องเที่ยวที่ต้องการหลีกเลี่ยงความวุ่นวายและสะเทือนใจจากชีวิตในเมืองใหญ่ และมองหาความสงบสุขบนเกาะที่มีความสวยงามอย่างเฉพาะตัว <p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="carousel-item carousel-image-2 ">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1 class="display-3" style="font-weight: bold;">Ban Nam Chiao</h1>
+
+                        <p>บ้านน้ำเชี่ยวเป็นหมู่บ้านเล็กๆ ที่ตั้งอยู่ในจังหวัดตราด ซึ่งเป็นส่วนหนึ่งของพื้นที่ชายเลนตะวันตกของประเทศไทยที่ติดกับชายฝั่งทะเลใต้จะปลายแห่งอาณาจักรไทย บ้านน้ำเชี่ยวเป็นแหล่งท่องเที่ยวที่มีเสน่ห์อันน่าสนใจ เนื่องจากมีบ้านเรือนที่สร้างอยู่บนน้ำ ทำให้มีบรรยากาศเป็นพิเศษและเป็นเอกลักษณ์ นอกจากนี้ยังมีกิจกรรมท่องเที่ยวทางทะเล เช่น การเที่ยวเรือสำราญ การดำน้ำตื้น และการตกปลา เป็นต้น ทำให้บ้านน้ำเชี่ยวเป็นที่นิยมในการท่องเที่ยวและพักผ่อนของนักท่องเที่ยวทั้งในและต่างประเทศ <p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item carousel-image-3 ">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1 class="display-3" style="font-weight: bold;">Laem Ngop</h1>
+
+                        <p>แหลมหงอบ เป็นส่วนหนึ่งที่ตั้งอยู่ในจังหวัดตราด ประเทศไทย มีธรรมชาติที่งดงามและน่าประทับใจ ที่นี่มีชายหาดทรายขาวที่สวยงามยาวนาน นอกจากนี้ยังมีน้ำทะเลสีใส และตำบลหงอบใกล้เคียงที่มีชุมชนท้องถิ่นที่เป็นมิตรและเป็นประชากรน้อย ทำให้แหลมหงอบเป็นสถานที่ท่องเที่ยวที่เงียบสงบและเหมาะสำหรับการพักผ่อนตามสไตล์ชีวิตชิลๆ และสัมผัสกับธรรมชาติอย่างใกล้ชิดได้อย่างเต็มที่ <p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#mySlider" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#mySlider" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            
+            </button>
+        </div>
+     </div>
+  </section>
+
+  <!--Service-->
+  <section id="service" class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 text-center mb-4">
+                <i class="fa-solid fa-person-walking-luggage "style="font-size: 40px;"></i>
+                <h3>ไกด์นำเที่ยว</h3>
+                <p style="color: black;">
+                    สามารถใช้ข้อมูลติดต่อของสถานที่ท่องเที่ยวหรือบริษัทนำเที่ยวท้องถิ่นในจังหวัดตราดได้จากแหล่งข้อมูลออนไลน์ เช่น เว็บไซต์ท่องเที่ยวท้องถิ่นของจังหวัดตราดหรือเว็บไซต์การท่องเที่ยวอื่นๆ ที่มีข้อมูลเกี่ยวกับการเที่ยวท่องเที่ยวในพื้นที่นั้นๆ นอกจากนี้ ยังสามารถสอบถามข้อมูลเพิ่มเติมที่สถานที่ท่องเที่ยวต่างๆ ในจังหวัดตราดได้เช่นกัน แต่หากต้องการข้อมูลที่เชื่อถือได้แนะนำให้ติดต่อหน่วยงานท่องเที่ยวจังหวัดตราดโดยตรง เช่น:
+                </p>
+                
+                <ul style="color: black;">
+                    <li style="color: black;">
+                        <strong style="color: black;">สำนักงานอนุรักษ์สิ่งแวดล้อมและการท่องเที่ยวจังหวัดตราด</strong>
+                        <ul style="color: black;">
+                            <li style="color: black;">เว็บไซต์: <a href="https://www.tourismtrat.go.th" style="color: black;">www.tourismtrat.go.th</a></li>
+                            <li style="color: black;">ที่อยู่: หมู่ที่ 2 ตำบลเพ, ตราด, ตราด 23170</li>
+                            <li style="color: black;">เบอร์โทรศัพท์: 039-518-083</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <p style="color: black;">
+                    หรือสอบถามที่สถานีท่องเที่ยวในพื้นที่ โรงแรม หรือผู้ให้บริการท่องเที่ยวท้องถิ่นค่ะ คุณสามารถค้นหาข้อมูลเพิ่มเติมหรือแผนที่ได้จากแหล่งข้อมูลท่องเที่ยวออนไลน์ที่เชื่อถือได้
+                </p>
+                
+                
+            </div>
+            <div class="col-md-4 text-center mb-4">
+                <i class="fa-solid fa-camera" style="font-size: 35px;"></i>
+                <h3>รับถ่ายภาพ</h3>
+                <p>1. เว็บไซต์ออนไลน์ที่มีช่างภาพท้องถิ่น: เว็บไซต์เช่น Facebook, Instagram, หรือ LinkedIn มักจะมีช่างภาพท้องถิ่นโพสต์ผลงานหรือข้อมูลติดต่อของพวกเขาอยู่บ่อยครั้ง เพียงเพิ่มคำค้นหา "ช่างภาพ ตราด" ลงในเว็บไซต์เหล่านี้เพื่อค้นหาผู้ให้บริการที่ใกล้เคียงกับคุณ</p>
+<p>2. สมาคมหรือองค์กรที่เกี่ยวข้อง: อาจมีสมาคมหรือองค์กรสถานะอิสระที่รวมตัวเอาไว้เพื่อสนับสนุนและส่งเสริมการทำงานของช่างภาพในพื้นที่ คุณอาจติดต่อสอบถามข้อมูลเพิ่มเติมได้ที่สมาคมดังกล่าว</p>
+<p>3. โรงแรมหรือรีสอร์ท: บางที่อาจมีบริการถ่ายภาพให้แก่แขกพักผ่อน คุณสามารถสอบถามที่บริการลูกค้าของโรงแรมหรือรีสอร์ทในพื้นที่ว่ามีบริการดังกล่าวหรือไม่</p>
+<p>4. เว็บไซต์สำหรับบริการซื้อขายออนไลน์: เช่น Kaidee, Shopee, Lazada ฯลฯ บางครั้งมีช่างภาพที่เสนอบริการถ่ายภาพบนแพลตฟอร์มเหล่านี้</p>
+
+            </div>
+            <div class="col-md-4 text-center mb-4">
+                <i class="fa-solid fa-pen-to-square" style="font-size: 35px;" ></i>
+                <h3>จุดถ่ายรูปแนะนำ</h3>
+                <ul style="margin-left: 10px;">
+                    <li>เกาะเสม็ด: เกาะเสม็ดเป็นเกาะที่มีทรัพยากรธรรมชาติสวยงาม มีหาดทรายขาว น้ำทะเลใส และป่าชายเลนที่อุดมไปด้วยความสดชื่น ทำให้เป็นที่เที่ยวที่อยู่ในความนิยมของนักท่องเที่ยวและช่างภาพ</li>
+                    <li>เกาะช้าง: เป็นหนึ่งในเกาะที่มีความสวยงามและมีชายหาดที่งดงาม มีทั้งทะเลสีฟ้า ทรายขาว และภูเขาต่อเนื่องจากภูเขาหาดแห่งนี้</li>
+                    <li>แหลมหงอบ: มีชายหาดทรายขาวที่สวยงามและน้ำทะเลที่ใส ที่นี่มีบรรยากาศเงียบสงบ ที่เหมาะสำหรับการถ่ายรูปธรรมชาติ</li>
+                    
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!--about me-->
+<section id="about" class="p-5">
+    <div class="dark-overlay">
+         <div class="row">
+            <div class="col">
+                <div class="container pt-5">
+               <h1>TRAT THAILAND</h1>
+               <p>เมืองเกาะครึ่งร้อย พลอยแดงค่าล้ำ ระกำแสนหวาน หลังอานหมาดี ยุทธนาวีเกาะช้าง สุดทางบูรพา</p>
+                </div>
+            </div>
+         </div>
+    </div>
+
+</section>
+<!--Gallary-->
+<section id="gallary" class="p-5">
+    <div class="container">
+        <h1 class="text-center">สถานที่ท่องเที่ยว</h1>
+        
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <img src="https://www.expedia.co.th/stories/wp-content/uploads/2022/07/2.%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B8%81%E0%B8%B9%E0%B8%94-1.jpg" class="img-fluid custom-img">
+                <p style="text-align: center;"><strong>เกาะหมาก</strong></p>
+               
+                
+
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="https://www.expedia.co.th/stories/wp-content/uploads/2022/07/5.%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B8%98%E0%B8%B2%E0%B8%A3%E0%B8%A1%E0%B8%B0%E0%B8%A2%E0%B8%A1-1.jpg" class="img-fluid custom-img">
+                <p style="text-align: center;"><strong>น้ำตกธารมะยม</strong></p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="https://www.expedia.co.th/stories/wp-content/uploads/2022/07/6.%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%95%E0%B8%81%E0%B8%84%E0%B8%A5%E0%B8%AD%E0%B8%87%E0%B8%9E%E0%B8%A5%E0%B8%B9-1.jpg" class="img-fluid custom-img">
+                <p style="text-align: center;"><strong>น้ำตกคลองพร้าว</strong></p>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <img src="https://photos.smugmug.com/East-Coast-Thailand/Ko-Kood/i-wVFTPSh/0/d5dac511/X2/Trat_Ko_Kood_pier-X2.jpg" class="img-fluid custom-img">
+                <p style="text-align: center;"><strong>เกาะกูด</strong></p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="https://photos.smugmug.com/East-Coast-Thailand/Ko-Mak/i-RH72Ls3/0/9525b2c8/X2/1%20Trat%20Ko%20Mak-X2.jpg" class="img-fluid custom-img">
+                <p style="text-align: center;"><strong>หาดทรายขาว</strong></p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <img src="https://photos.smugmug.com/East-Coast-Thailand/Ko-Chang/i-6wJWjZr/0/b7b2202c/X2/11%20Trat-X2.jpg" class="img-fluid custom-img">
+                <p style="text-align: center;"><strong>ป่าชายเลนสลักเพชร</strong></p>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<!--Footer-->
+<footer class="text-center p-4">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p style="color: black; font-weight: bold;">Coppyright &copy; By : Teerapon Aksornrang </p>
+
+
+            </div>
+        </div>
+    </div>
+
+</footer>
+<!--Modal-->
+<div class="modal fade" id="myModal">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">ติดต่อ</h5>
+                <button class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body"></div>
+            <p style="color: black; font-weight: bold;">IG: ttrrpp.pp</p>
+<p style="color: black; font-weight: bold;">0989278529</p>
+
+
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

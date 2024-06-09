@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    font-family: "Prompt", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+
+.carousel-item{
+    height: 910px;
+}
+
+.carousel-image-1{
+    background-image: url("ภาพตราด/เกาะช้าง.jpg");
+    background-size: cover;
+    
+}
+
+.carousel-image-2{
+    background-image: url("https://cbtthailand.dasta.or.th/upload-file-api/Resources/Community/Images/CM0323004/1.png");
+    background-size: cover;
+}
+
+.carousel-image-3{
+    background-image: url("ภาพตราด/แหลมหงอบ.jpeg");
+    background-size: cover;
+}
+
+#about {
+    min-height: 200px;
+    position: relative;
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: beige;
+}
+
+.custom-img {
+    height: 100%; /* กำหนดความสูงของรูปภาพให้เท่ากับความสูงของ div */
+    width: 100%; /* ทำให้รูปภาพขยายเต็มขอบของ div */
+    object-fit: cover; /* รักษาสัดส่วนของรูปภาพ */
+}
